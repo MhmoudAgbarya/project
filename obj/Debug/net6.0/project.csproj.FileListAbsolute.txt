@@ -13,3 +13,5 @@
 /home/hajjar/Documents/project/obj/Debug/net6.0/project.pdb
 /home/hajjar/Documents/project/obj/Debug/net6.0/project.genruntimeconfig.cache
 /home/hajjar/Documents/project/obj/Debug/net6.0/ref/project.dll
+/home/hajjar/Documents/project/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/hajjar/Documents/project/obj/Debug/net6.0/project.csproj.CopyComplete

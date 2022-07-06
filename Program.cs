@@ -24,10 +24,41 @@ internal class Program
     
 
        var doesInclude = str.Contains("img");
+       Console.WriteLine(str);
+       Console.WriteLine(doesInclude);
 
-        Console.WriteLine(str);
-        Console.WriteLine(doesInclude);
-        Console.WriteLine("xxxxxxxxxxxxxxx", url);
+       //لازم اعمل for داخلية
+       //ا بتفحص اذا موجودة الكلمة، بتمرق على كل النص عشان اعرف كم مرة تكررت
+
+        //    bool x = false;
+       if (File.Exists("bad words.txt"))
+        {
+            int badWordsCounter = 0;
+            //webSiteCounter = 0;
+            StreamReader badwords = new StreamReader("bad words.txt");
+            var badWordArray = badwords.ReadLine();
+            if (badWordArray != null)
+            {
+                for(int i=0; i< str.Length; i++)
+                {
+                    doesInclude = badWordArray.Contains(str[i]);
+                    if(doesInclude == true)
+                    {
+                        badWordsCounter++;
+                        doesInclude = false;
+                    }
+                    Console.WriteLine(badWordsCounter);
+                }
+
+            }
+            badwords.Close();
+            // if (x == false)// الكلمة مش موجودة
+            // {
+            //     Console.WriteLine("the word is not found!!!");
+            //     Console.ReadKey();
+            // }
+        }
+    
 
     }
 }

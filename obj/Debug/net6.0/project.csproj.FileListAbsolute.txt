@@ -13,6 +13,7 @@
 /home/hajjar/Documents/project/obj/Debug/net6.0/project.pdb
 /home/hajjar/Documents/project/obj/Debug/net6.0/project.genruntimeconfig.cache
 /home/hajjar/Documents/project/obj/Debug/net6.0/ref/project.dll
+<<<<<<< HEAD
 C:\Users\ampc\project\bin\Debug\net6.0\project.exe
 C:\Users\ampc\project\bin\Debug\net6.0\project.deps.json
 C:\Users\ampc\project\bin\Debug\net6.0\project.runtimeconfig.json
@@ -28,3 +29,9 @@ C:\Users\ampc\project\obj\Debug\net6.0\refint\project.dll
 C:\Users\ampc\project\obj\Debug\net6.0\project.pdb
 C:\Users\ampc\project\obj\Debug\net6.0\project.genruntimeconfig.cache
 C:\Users\ampc\project\obj\Debug\net6.0\ref\project.dll
+=======
+/home/hajjar/Documents/project/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/hajjar/Documents/project/obj/Debug/net6.0/project.csproj.CopyComplete
+>>>>>>> f4d832a2d93704b9e78b42367203fda2053cd423
+C:\Users\ampc\project\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ampc\project\obj\Debug\net6.0\project.csproj.CopyComplete

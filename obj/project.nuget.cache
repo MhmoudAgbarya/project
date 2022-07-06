@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIzMYSeDf4cSmLyg2yJGjl369EggppzLHoH+44pvXpPyDbTvi8QUXXLKtUOkTdKihluZcLp73ximUIA3AmT8YQ==",
+  "dgSpecHash": "Dw9NDeHppeARiIT+wdc9U6WQvoJ571OP2LhQhvBhn1X5SU+UgAUJQmXJr/ayGy4DNZ4pSmYZNsMO5B4yRj/5oA==",
   "success": true,
-  "projectFilePath": "/home/hajjar/Documents/project/project.csproj",
+  "projectFilePath": "C:\\Users\\ampc\\project\\project.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

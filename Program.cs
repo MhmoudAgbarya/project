@@ -19,33 +19,29 @@ internal class Program
        var str = Regex.Replace(content, @"<script[^>]*>[\s\S]*?</script>", " ");
        str = Regex.Replace(str, @"<style[^>]*>[\s\S]*?</style>", " ");
        str = Regex.Replace(content, "<.*?>", " ");
-       str = Regex.Replace(str, @"\s+", " ");
-
-    
-
-       var doesInclude = str.Contains("img");
-       Console.WriteLine(str);
-       Console.WriteLine(doesInclude);
+       str = Regex.Replace(str, @"\s+", "newWord");
+       var strArr = str.Split("newWord");
 
        //لازم اعمل for داخلية
        //ا بتفحص اذا موجودة الكلمة، بتمرق على كل النص عشان اعرف كم مرة تكررت
 
         //    bool x = false;
-       if (File.Exists("bad words.txt"))
+       if (File.Exists("bad words.txt.txt"))
         {
             int badWordsCounter = 0;
             //webSiteCounter = 0;
-            StreamReader badwords = new StreamReader("bad words.txt");
-            var badWordArray = badwords.ReadLine();
+            StreamReader badwords = new StreamReader("bad words.txt.txt");
+            var badWordArray = badwords.ReadLine()?.Split("/");
             if (badWordArray != null)
             {
-                for(int i=0; i< str.Length; i++)
+                for(int i=0; i< strArr.Length; i++)
                 {
-                    doesInclude = badWordArray.Contains(str[i]);
-                    if(doesInclude == true)
+                    var temp = strArr[i];
+                    var doesInclude = Array.Find(badWordArray,element=>element == strArr[i]);
+                    if(doesInclude != null)
                     {
                         badWordsCounter++;
-                        doesInclude = false;
+                        doesInclude = null;
                     }
                     Console.WriteLine(badWordsCounter);
                 }

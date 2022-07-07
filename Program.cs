@@ -67,6 +67,7 @@ internal class Program
             }
             badwords.Close();// اغلاق ملف الكلمات
         }
+        
     
 
     }

@@ -11,7 +11,7 @@ internal class Program
 
         var url = System.Uri.UriSchemeHttps;
 
-        var content = await client.GetStringAsync("https://www.javatpoint.com/c-sharp-multidimensional-array");
+        var content = await client.GetStringAsync("https://fanspo.com/");
 
 
        
@@ -45,7 +45,7 @@ internal class Program
                     {
                         for(int g=0; g<badWordArray.Length;g++)
                         {
-                            if(badwordsmatrix[g,0]== badWordArray[g])
+                            if(badwordsmatrix[g,0]== doesInclude)
                             {
                                 Int32.TryParse(badwordsmatrix[g,1], out int j);
                                 j++;

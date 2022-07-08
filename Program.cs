@@ -5,6 +5,13 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
+        
+        // string webpagedata;
+        // using (System.Net.WebClient webClient = new System.Net.WebClient())
+        // webpagedata = webClient.DownloadString(textBox1.Text);
+        // textBox2.Text = webpagedata.ToString();
+        
+        
         using var client = new HttpClient();
 
         client.DefaultRequestHeaders.Add("User-Agent", "C# console program");
@@ -47,7 +54,7 @@ internal class Program
                     {
                         for(int g=0; g<badWordArray.Length;g++)//؟
                         {
-                            if(badwordsmatrix[g,0]== badWordArray[g])
+                            if(badwordsmatrix[g,0]== doesInclude)
                             {
                                 Int32.TryParse(badwordsmatrix[g,1], out int j);
                                 j++;

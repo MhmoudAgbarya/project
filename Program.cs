@@ -5,6 +5,13 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
+        
+        // string webpagedata;
+        // using (System.Net.WebClient webClient = new System.Net.WebClient())
+        // webpagedata = webClient.DownloadString(textBox1.Text);
+        // textBox2.Text = webpagedata.ToString();
+        
+        
         using var client = new HttpClient();
 
         client.DefaultRequestHeaders.Add("User-Agent", "C# console program");
@@ -31,7 +38,7 @@ internal class Program
             StreamReader badwords = new StreamReader("bad words.txt.txt");//قراءة الكلمات من الملف
             var badWordArray = badwords.ReadLine()?.Split("/");//تخزين الكلمات بعد القراءة
 
-            string [,] badwordsmatrix=new string [badWordArray.Length,2];//بناء مصفوفة ثنائية الابعاد لحفظ الكلمات وكم مرة تكررت
+            string [,] badwordsmatrix=new string [(badWordArray != null ? badWordArray.Length : 0),2];//بناء مصفوفة ثنائية الابعاد لحفظ الكلمات وكم مرة تكررت
 
             if (badWordArray != null)//فحص اذا كان كلمات؟
             {
@@ -68,6 +75,7 @@ internal class Program
             }
             badwords.Close();// اغلاق ملف الكلمات
         }
+        
     
 
     }

@@ -11,6 +11,7 @@ internal class Program
 
         var url = System.Uri.UriSchemeHttps;
 
+
         var content = await client.GetStringAsync("https://www.javatpoint.com/");//تخزين محتويات الموقع
         
         // Console.WriteLine("enter the web: ");// ادخال الموقع

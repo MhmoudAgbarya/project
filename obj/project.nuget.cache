@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o8NpW8L/LSElhZ9d8XM5O//s8/NP3/z9ez+49P+8U4+Sj0aXhTQjIsp6Yqp4dvqU9s9WXOw2Y4JhHUSzAF/C2A==",
+  "dgSpecHash": "dZLDe9c0k00PwteslZzHxnfEgklOtUqmEw0Xf4yYQO8WYh4JfMqu4InJ4q8NxZf/HqX1LBe61PXH5U1XNF2q7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ampc\\project\\project.csproj",
+  "projectFilePath": "/home/hajjar/Documents/project/project.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ampc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/hajjar/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ampc\\project\\project.csproj": {}
+    "C:\\Users\\ampc\\project\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ampc\\project\\project.csproj": {
+    "C:\\Users\\ampc\\project\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ampc\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\ampc\\project\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\Users\\ampc\\project\\project.csproj",
+        "projectPath": "C:\\Users\\ampc\\project\\project\\project.csproj",
         "packagesPath": "C:\\Users\\ampc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ampc\\project\\obj\\",
+        "outputPath": "C:\\Users\\ampc\\project\\project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o8NpW8L/LSElhZ9d8XM5O//s8/NP3/z9ez+49P+8U4+Sj0aXhTQjIsp6Yqp4dvqU9s9WXOw2Y4JhHUSzAF/C2A==",
+  "dgSpecHash": "2p5IrGJ6/HsD9Y4E/Gd/g/5BZNxixNT1cGbIffIIMHzl68OQDG/FYoxHgzBBOigyxHziZ72yIkGS8ysNJ7TpzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ampc\\project\\project.csproj",
+  "projectFilePath": "C:\\Users\\ampc\\project\\project\\project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ampc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\ampc\\project\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

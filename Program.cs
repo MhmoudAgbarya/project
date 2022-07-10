@@ -18,6 +18,7 @@ internal class Program
 
         var url = System.Uri.UriSchemeHttps;
 
+
         var content = await client.GetStringAsync("https://www.javatpoint.com/");//تخزين محتويات الموقع
         
         // Console.WriteLine("enter the web: ");// ادخال الموقع
@@ -37,7 +38,7 @@ internal class Program
             StreamReader badwords = new StreamReader("bad words.txt.txt");//قراءة الكلمات من الملف
             var badWordArray = badwords.ReadLine()?.Split("/");//تخزين الكلمات بعد القراءة
 
-            string [,] badwordsmatrix=new string [badWordArray.Length,2];//بناء مصفوفة ثنائية الابعاد لحفظ الكلمات وكم مرة تكررت
+            string [,] badwordsmatrix=new string [(badWordArray != null ? badWordArray.Length : 0),2];//بناء مصفوفة ثنائية الابعاد لحفظ الكلمات وكم مرة تكررت
 
             if (badWordArray != null)//فحص اذا كان كلمات؟
             {
